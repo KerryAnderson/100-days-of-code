@@ -1,6 +1,6 @@
 # 100 Days Of Code - Log
 
-### Day 1: 10th April, 2019
+### Day 0: 10th April, 2019 (Preparation Day)
 
 
 **Today's Progress**: Although I've been using GitHub for a while (mostly for more information on software I'm using) I've never had a repo. So this is a first. I'm using 100 Days of Code to keep me on track with learning Python and R.
@@ -9,4 +9,4 @@
 
 **Link to work:** [Codecademy: Data Science Track](https://www.codecademy.com/learn/paths/data-science)
 
-**TEST:** Changes?
+**Update:** Learned to update this log using Atom, commit and push to GitHub using the command line, and have everything set up for Day 1 of 100 Days of Code, starting tomorrow!
