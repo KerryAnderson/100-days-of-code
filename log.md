@@ -14,7 +14,7 @@
 ### Day 1: 11th April, 2019
 
 
-**Today's Progress**: Carried on with Jupyter Notebook for building a rudimentary Customer Service Bot. Learned about pass statements, but not 100% sure I get everything that's happening. Got to Step 9, and code written to date can be found in Python_Code folder (although it doesn't work yet).
+**Today's Progress**: Carried on with Jupyter Notebook for building a rudimentary Customer Service Bot. Learned about pass statements, but not 100% sure I get everything that's happening. Got to Step 9, and code written to date can be found in [Python_Code] (https://github.com/KerryAnderson/100-days-of-code/tree/master/Python_Code) folder (although it doesn't work yet).
 
 **Thoughts:** Don't see yet how to build this bot outside of the notebook. Feel Codecademy shows the basics, but doesn't prepare you for real-life use of the languages, and feel they maybe dont't teach the most succinct/efficient use of code.
 
