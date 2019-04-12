@@ -23,7 +23,7 @@
 ### Day 2: 12th April, 2019
 
 
-**Today's Progress**: Carried on with Jupyter Notebook for building a rudimentary Customer Service Bot. Finished up, after almost pulling my hair out over a "reponse" instead of "response." Tired eyes after a day of STATA on a screen with brightness (unalterably) set to 100% brightness. Learned about the difference between use of return and print() statements when defining functions. Think I get it. Completed "creating and modifying lists in Python."
+**Today's Progress**: Carried on with Jupyter Notebook for building a rudimentary Customer Service Bot. Finished up, after almost pulling my hair out over a "reponse" instead of "response." Tired eyes after a day of STATA on a screen with brightness (unalterably) set to 100% brightness. Learned about the difference between use of return and print() statements when defining functions. Think I get it. Completed "creating and modifying lists in Python." Still not 100% sure with Git, need to do some more reading.
 
 **Thoughts:** I learn much better working through a project (and struggling) than breezing through rigid, controlled tasks.
 
