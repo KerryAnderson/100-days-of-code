@@ -15,13 +15,13 @@
 # 
 # Run the following two code blocks to see how `input()` works.
 
-# In[47]:
+# In[2]:
 
 
 name = input("What is your name? ")
 
 
-# In[48]:
+# In[3]:
 
 
 print(name)
@@ -51,7 +51,7 @@ print(name)
 #             Sorry, we didn't understand your selection.
 #    and then run `cs_service_bot` again to let them make another choice.
 
-# In[49]:
+# In[4]:
 
 
 def cs_service_bot():
@@ -68,7 +68,7 @@ def cs_service_bot():
 
 # Great Job! Run `cs_service_bot()` in the cell below and see how it works.
 
-# In[50]:
+# In[5]:
 
 
 cs_service_bot()
@@ -92,7 +92,7 @@ cs_service_bot()
 #             Sorry, we didn't understand your selection.
 # and call itself to let them try again.
 
-# In[ ]:
+# In[6]:
 
 
 def existing_customer():
@@ -125,7 +125,7 @@ def existing_customer():
 # 3. If the user selects `3`, call the function `live_rep()` with the argument `"sales"` so the program directs them to the correct live representative.
 # 4. Finally, like the other functions, if the user sumbits something other than the options above, display an error message and call the function again.
 
-# In[ ]:
+# In[7]:
 
 
 def new_customer():
@@ -165,7 +165,7 @@ def new_customer():
 # 4. If the user enters `4` it should direct them immediately to `live_rep("support")`
 # 5. Just like the other functions, if the user enters something other than these options it should present an error message and call the function again.
 
-# In[ ]:
+# In[8]:
 
 
 def television_support():
@@ -209,7 +209,7 @@ def television_support():
 # 4. If the user selects `4`, the function should call `live_rep("support")`
 # 5. Finally, if the user enters something other than the options above, print an error message and recall the function.
 
-# In[ ]:
+# In[9]:
 
 
 def internet_support():
@@ -243,7 +243,7 @@ def internet_support():
 # 5. If they want to schedule a home visit, call `home_visit("support")`
 # 6. Make sure to include error messages for both user responses if they enter a choice not listed above
 
-# In[ ]:
+# In[10]:
 
 
 def did_that_help():
@@ -283,7 +283,7 @@ def did_that_help():
 #                 You've selected the Cable Only Package! Please schedule a home visit and our technician will come and set up your new service.
 # 4. If a user enters something other than the above choices, print an error message and call `sign_up()` again.
 
-# In[ ]:
+# In[11]:
 
 
 def sign_up():
@@ -328,29 +328,37 @@ def sign_up():
 #                 
 # and return `visit_date`.
 
-# In[ ]:
+# In[12]:
 
 
 def home_visit(purpose="none"):
     if purpose == "none":
         print("What is the purpose of your home visit? \n [1] New service installation. \n [2] Exisitng service repair. \n [3] Location scouting for unserviced region.")
-        reponse = input("Please enter the number corresponding to your choice: ")
+        response = input("Please enter the number corresponding to your choice: ")
         if response == "1":
-            print("Please enter a date below when you are available for a technician to come to your home and install your new device.")
-            visit_date = input("Date: ")
-            print("Wonderful! A technical will come visit you on [visit_date]. Please be available between the hours of 1:00 am and 11:00 pm.")
+            home_visit("new install")
         elif response == "2":
-            print("Please enter a date below when you are available for a technician to come to your home and carry out a service repair.")
-            visit_date = input("Date: ")
-            print("Wonderful! A technical will come visit you on [visit_date]. Please be available between the hours of 1:00 am and 11:00 pm.")
+            home_visit("support")
         elif response == "3":
-            print("Please enter a date below when you are available for a technician to come to your home and scout your region for service.")
-            visit_date = input("Date: ")
-            print("Wonderful! A technical will come visit you on [visit_date]. Please be available between the hours of 1:00 am and 11:00 pm.")
+            home_visit("scout")
         else:
             print("Sorry, we didn't understand your selection.")
-        home_visit()
-            
+        sign_up()
+    if purpose == "new install":
+        print("Please enter a date below when you are available for a technician to come to your home and install your new device.")
+        visit_date = input("Date: ")
+        print("Wonderful! A technical will come visit you on " + visit_date + ". Please be available between the hours of 1:00 am and 11:00 pm.")
+        return visit_date
+    if purpose == "support":
+        print("Please enter a date below when you are available for a technician to come to your home and carry out a service repair.")
+        visit_date = input("Date: ")
+        print("Wonderful! A technical will come visit you on " + visit_date + ". Please be available between the hours of 1:00 am and 11:00 pm.")
+        return visit_date
+    if purpose == "scout":
+        print("Please enter a date below when you are available for a technician to come to your home and scout your region for service.")
+        visit_date = input("Date: ")
+        print("Wonderful! A technical will come visit you on " + visit_date + ". Please be available between the hours of 1:00 am and 11:00 pm.")
+        return visit_date
 
 
 # ## Step 10
@@ -361,19 +369,24 @@ def home_visit(purpose="none"):
 # 2. If the function is called with an argument of `"support"`, print 
 #             Please hold while we connect you with a live support representative. The wait time will be between two minutes and six hours. We thank you for your patience.
 
-# In[ ]:
+# In[13]:
 
 
 def live_rep(purpose):
-    # Replace `pass` with your code
-    pass
+    if purpose == "sales":
+        print("Please hold while we connect you with a live sales representative. The wait time will be between two minutes and six hours. We thank you for your patience.")
+    elif purpose == "support":
+        print("Please hold while we connect you with a live support representative. The wait time will be between two minutes and six hours. We thank you for your patience.")
+    else:
+        print("Sorry, we didn't understand your selection.")
+        cs_service_bot()
 
 
 # ## Step 11
 # 
 # That's it, your customer service bot should be up and running! Test your code and run `cs_service_bot` and go through some of the choices! Make sure all of your options work and you end up where you expect after each decision.
 
-# In[ ]:
+# In[14]:
 
 
 cs_service_bot()
@@ -386,27 +399,3 @@ cs_service_bot()
 # You can even build other types of projects using similar techniques! Try building a chat bot that can respond to what you say and ask you questions, or create a text based adventure game where players can make choices to do different actions.
 # 
 # The possibilities are endless! So keep going and happy programming!
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
