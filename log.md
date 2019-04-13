@@ -28,3 +28,12 @@
 **Thoughts:** I learn much better working through a project (and struggling) than breezing through rigid, controlled tasks.
 
 **Link to work:** [Today's Codecademy Badge](https://www.codecademy.com/users/KezzaBallz/achievements)
+
+### Day 3: 13th April, 2019
+
+
+**Today's Progress**: Learned how to work with lists in Python, including getting the length, subsetting, counting elements and sorting.
+
+**Thoughts:** Seems awakward with lists being 0 indexed. Suppose it's just something to get used to, but matrices might have an easier system.
+
+**Link to work:** [Today's Codecademy Badge](https://www.codecademy.com/users/KezzaBallz/achievements)
