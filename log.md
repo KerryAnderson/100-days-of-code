@@ -37,3 +37,12 @@
 **Thoughts:** Seems awakward with lists being 0 indexed. Suppose it's just something to get used to, but matrices might have an easier system.
 
 **Link to work:** [Today's Codecademy Badge](https://www.codecademy.com/users/KezzaBallz/achievements)
+
+### Day 4: 15th April, 2019
+
+
+**Today's Progress**: Worked with lists a little more and completed some challenges and quizzes to use what I'd learned. Also learned the difference between lists and tuples and why you might use one or the other.
+
+**Thoughts:** Zero indexed lists are awkard - I understand them but my brain needs a second to go over it each time. Frustrating session but feel better now about what I learned last week. 
+
+**Link to work:** [Today's Codecademy Badge](https://www.codecademy.com/users/KezzaBallz/achievements)
