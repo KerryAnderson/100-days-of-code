@@ -46,3 +46,12 @@
 **Thoughts:** Zero indexed lists are awkard - I understand them but my brain needs a second to go over it each time. Frustrating session but feel better now about what I learned last week. 
 
 **Link to work:** [Today's Codecademy Badge](https://www.codecademy.com/users/KezzaBallz/achievements)
+
+### Day 5: 16th April, 2019
+
+
+**Today's Progress**: Learned how to write a for loop, how to use range in a loop, what infinite loops are and how to avoid them, how to skip values in a loop, how to write a while loop and how to make lists with one line.
+
+**Thoughts:** Everything was really straight-forward but struggled again with [] vs () and when to use int vs indexes. Might go over old lessons just to clear things up.
+
+**Link to work:** [Today's Codecademy Badge](https://www.codecademy.com/users/KezzaBallz/achievements)
