@@ -55,3 +55,12 @@
 **Thoughts:** Everything was really straight-forward but struggled again with [] vs () and when to use int vs indexes. Might go over old lessons just to clear things up.
 
 **Link to work:** [Today's Codecademy Badge](https://www.codecademy.com/users/KezzaBallz/achievements)
+
+### Day 5: 16th April, 2019
+
+
+**Today's Progress**: Practise things from yesterday via a project.
+
+**Thoughts:** Completed the project but it's becoming clear I don't understand or mentall compute lists easily. May need to revisit earlier lessons to help.
+
+**Link to work:**  [Day 6 Python Code](https://github.com/KerryAnderson/100-days-of-code/tree/master/Python_Code)
