@@ -56,11 +56,21 @@
 
 **Link to work:** [Today's Codecademy Badge](https://www.codecademy.com/users/KezzaBallz/achievements)
 
-### Day 5: 16th April, 2019
+### Day 6: 17th April, 2019
 
 
 **Today's Progress**: Practise things from yesterday via a project.
 
-**Thoughts:** Completed the project but it's becoming clear I don't understand or mentall compute lists easily. May need to revisit earlier lessons to help.
+**Thoughts:** Completed the project but it's becoming clear I don't understand or mentally compute lists easily. May need to revisit earlier lessons to help.
 
 **Link to work:**  [Day 6 Python Code](https://github.com/KerryAnderson/100-days-of-code/tree/master/Python_Code)
+
+
+### Day 7: 24th April, 2019
+
+
+**Today's Progress**: Quiz and Code Challenge for Loops in Python.
+
+**Thoughts:** Couldn't do any of them. Clear I didn't understand any of the stuff I did on Days 5 and 6. Very frustrating. Have to repeat Loops lessons tomorrow.
+
+**Link to work:**  [Day 7 Python Code](https://github.com/KerryAnderson/100-days-of-code/tree/master/Python_Code)
