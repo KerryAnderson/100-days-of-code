@@ -74,3 +74,12 @@
 **Thoughts:** Couldn't do any of them. Clear I didn't understand any of the stuff I did on Days 5 and 6. Very frustrating. Have to repeat Loops lessons tomorrow.
 
 **Link to work:**  [Day 7 Python Code](https://github.com/KerryAnderson/100-days-of-code/tree/master/Python_Code)
+
+### Day 8: 30th April, 2019
+
+
+**Today's Progress**: Revised some Python and started formal introduction to R.
+
+**Thoughts:** Finding the Python okay - haven't reached the part where I'm having trouble. Was nice to also have a formal introduction to R instead of cobbling bits together from StackOverflow etc.
+
+**Link to work:**  [Today's Codecademy Badges](https://www.codecademy.com/users/KezzaBallz/achievements)
